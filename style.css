@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=PT+Serif&display=swap');
 /*===========================
   COMMON css 
 ===========================*/
 :root {
-  --font-family: "Inter", sans-serif;
+  --font-family: 'Montserrat', sans-serif;
   --primary: #155bd5;
   --primary-dark: #1c3ab6;
   --primary-light: #e2f1ff;
@@ -166,9 +166,9 @@ h6,
 
 p {
   font-size: 1em;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 1.5;
-  color: var(--dark-3);
+  color: var(--dark-1);
   margin: 0px;
 }
 
@@ -399,7 +399,7 @@ p {
 /*===== NAVBAR NINE =====*/
 .navbar-area.navbar-nine {
   background: var(--primary);
-  padding: 10px 0;
+  padding: 0px 0;
   position: absolute;
   left: 0;
   top: 0;
@@ -909,7 +909,7 @@ p {
 ========================================*/
 .header-eight {
   position: relative;
-  padding:160px 0 100px 0;
+  padding:100px 0 60px 0;
   background: var(--primary);
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -1001,9 +1001,9 @@ p {
   about-05 css
 ===========================*/
 .about-five {
-  background-color: var(--light-3);
-  padding-top: 30px;
-  padding-bottom: 30px;
+  background-color: var(--light-1);
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .about-five {
@@ -1122,7 +1122,7 @@ p {
 .about-image-five .shape {
   position: absolute;
   left: 30px;
-  top: -30px;
+  top: 0px;
   z-index: -1;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -1152,7 +1152,7 @@ p {
 ===========================*/
 .services-eight {
   padding: 30px 0;
-  background-color: var(--light-3);
+  background-color: var(--light-1);
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .services-eight {
@@ -1232,7 +1232,7 @@ p {
   margin-bottom: 20px;
 }
 .services-eight .single-services .service-content p {
-  color: var(--dark-3);
+  color: var(--dark-1);
 }
 
 
@@ -1314,7 +1314,7 @@ p {
 
 /*===== PRICING THIRTEEN =====*/
 .pricing-fourteen {
-  padding: 30px 0;
+  padding: 40px 0;
   background-color: var(--white);
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -1430,7 +1430,7 @@ p {
 /*===== call action four =====*/
 .call-action {
   z-index: 2;
-  padding: 100px 0;
+  padding: 40px 0;
   background: linear-gradient(45deg, var(--primary), var(--primary-dark));
   position: relative;
 }
@@ -1774,8 +1774,8 @@ p {
 
 /* Footer eleven css */
 .footer-eleven {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   background-color: var(--white);
   position: relative;
 }
@@ -1903,4 +1903,15 @@ p {
 .footer-eleven .newsletter-form .sub-btn:hover {
   color: var(--white);
   background-color: var(--primary-dark);
+}
+.font-size-xs{
+  font-size: 13px;
+}
+.menu-bar{
+  display: none;
+}
+@media (max-width: 992px){
+  .menu-bar{
+    display: block;
+  }
 }
